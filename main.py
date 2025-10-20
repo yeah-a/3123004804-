@@ -35,7 +35,7 @@ def generate_problems(n , r):
         problems.append(f"{expr_str} =")
         answers.append(ans_str)
 
-    return problems , answers
+    return problems ,  answers
 
 
 def main():

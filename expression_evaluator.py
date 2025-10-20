@@ -2,6 +2,7 @@ import re
 from fractions import Fraction
 from number_generator import parse_number_str
 
+
 def evaluate_expression(expr_str):
     """计算表达式结果（支持分数运算）"""
     # 替换运算符并转换为Fraction计算

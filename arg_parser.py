@@ -1,5 +1,6 @@
 import argparse
 
+
 def parse_args():
     parser = argparse.ArgumentParser(description="小学四则运算题目生成器")
     parser.add_argument("-n", type=int, help="生成题目的数量（正整数）")
